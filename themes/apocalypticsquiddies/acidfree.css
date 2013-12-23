@@ -1,0 +1,148 @@
+/* $Id: acidfree.css,v 1.5.2.2 2006/08/26 04:09:26 vhmauery Exp $ */
+
+/*
+Acidfree Photo Albums for Drupal
+Copyright (C) 2005 Vernon Mauery
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+*/
+
+table.acidfree {
+    margin: auto;
+    border-collapse: separate;
+}
+
+#acidfree-main {
+    margin: 0px;
+    border-collapse: separate;
+}
+
+tr.acidfree {
+    background-color: #c0c0c0;
+}
+
+tr.none {
+    background-color: transparent;
+    text-align: left;
+    vertical-align: top;
+}
+
+div.nowrap {
+    padding: 20px;
+    display: table-row;
+    width: 100%;
+}
+
+div.folder {
+    display: table-cell;
+    margin: auto;
+    width: 120px;
+    height: 90px;
+    border: none;
+    vertical-align: bottom;
+    text-align: center;
+    background: url(http://apocalypticsquiddies.com/themes/apocalypticsquiddies/art/album.gif) center no-repeat;
+    cursor: pointer;
+}
+
+div.fullslide {
+    margin: auto;
+    padding: 0px;
+/*    border: 1px dashed #eaa; */
+    vertical-align: top;
+    text-align: center;
+}
+
+div.outer {
+    display: table-cell;
+    margin: auto;
+    padding: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccd #778 #778 #ccd;
+    background: #c0c0c0;
+    vertical-align: middle;
+}
+div.video {
+    background-image: url(http://apocalypticsquiddies.com/themes/apocalypticsquiddies/art/filmstrip.png);
+}
+
+span.filter-thumb {
+	padding: 0px;
+	margin: 0px 5px 0px 5px;
+	vertical-align: middle;
+}
+
+filter-thumb-title {
+	margin: auto;
+	font-size: 80%;
+	text-align: center;
+}
+
+div.outer span {
+    vertical-align: middle;
+    height: 100%;
+    width: 1px;
+}
+
+div.folder span {
+    height: 65px;
+    width: 1px;
+}
+
+img.acidfree {
+    margin: auto;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #778 #ccd #ccd #778;
+    background: #c0c0c0;
+}
+
+img.acidfree-plain {
+    margin: 0px;
+    border: none;
+    padding: 5px;
+}
+
+img.album-thumb {
+    margin-bottom: 9px;
+    vertical-align: middle;
+    border: 1px outset;
+    height: 55px;
+}
+
+div.block-cell {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    clear: none;
+    background: transparent;
+    padding: 5px 0px 10px 0px;
+}
+.block-bottom {
+    font-size: 1px;
+    height: 0px;
+    clear: both;
+}
+.block-acidfree {
+    width: 180px;
+}
+
+div.floating-box {
+    float: left;
+    clear: none;
+    max-width: 150px;
+}

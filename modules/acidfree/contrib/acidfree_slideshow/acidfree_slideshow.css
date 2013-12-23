@@ -1,0 +1,17 @@
+div#slideshow {
+	background-color: #ccc;
+	text-align: center;
+	margin: 0px;
+}
+#SLIDESTEXT {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+form#slide-controls {
+	background-color: #666;
+	padding: 5px;
+}
+div#slideshow form#slide-controls div.form-item {
+	display: inline;
+}

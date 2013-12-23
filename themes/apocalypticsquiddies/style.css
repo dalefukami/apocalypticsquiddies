@@ -1,0 +1,242 @@
+h2, p, form, .form-item, .item-list, .block ul, .item-list ul li {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+p {
+	padding: 7px 0px 7px 0px;
+}
+
+.profile, dl, dd, dt {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  background-color: #0FB6A2;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  font: 12px verdana;
+  color: 000000;
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+a { text-decoration: none; color: #C03A4A }
+a:hover { text-decoration: underline; color: #000000 }
+.sidebar a { font-weight: bold; }
+#main-content a:hover { text-decoration: underline; color: #C03A4A }
+
+#header {
+	background-image: url(images/top.jpg);
+	background-repeat: no-repeat;
+	width: 750px;
+	height: 120px;
+}
+
+#left-sidebar {
+	float: left;
+	background-image: url(images/left.jpg);
+	background-repeat: no-repeat;
+	width: 165px;
+	height: 330px;
+	padding-top: 69px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#window {
+	float: left;
+	width: 560px;
+}
+
+#main-menu {
+	width: 150px;
+}
+
+.content ul, .content li {
+	padding: 0px;
+	margin: 0px;
+}
+
+.block {
+	padding: 0px;
+	margin: 5px 0px 5px 0px;
+}
+.block ul {
+	padding-left: 15px;
+	padding-right: 10px;
+}
+.block li {
+	padding-bottom: 1px;
+	margin: 0px;
+}
+
+.content #block-content .w2 {
+	padding: 0px 15px 0px 15px;
+	margin: 0px;
+}
+
+/***************************************************
+ *
+ *  Comments
+ *
+ *
+ ***************************************************/
+
+.comment {
+	border: 1px dashed #C03A4A;
+	background-color: #98ebe1;
+	margin-top: 7px;
+	padding: 10px;
+}
+
+.comment h3 {
+	margin: 0px;
+}
+
+.comment-new h3 {
+	font-style: italic;
+}
+
+.comment-new .new, .comment-new #new {
+	display: none;
+}
+/***************************************************
+ *
+ *  Acid Free style overrides
+ *
+ *
+ ***************************************************/
+div.outer {
+    display: table-cell;
+    margin: auto;
+    padding: 0px;
+    border-width: 0px;
+    background: transparent;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block .hd .c,
+.block .ft .c {
+ font-size:1px; /* ensure minimum height */
+ height:20px;
+}
+
+.block .hd {
+	background:transparent url(images/header_left.gif) no-repeat 0px 0px;
+	margin-right:20px; /* space for right corner */
+}
+
+.block .hd .c {
+	background:transparent url(images/header_right.gif) no-repeat right 0px;
+	margin-right:-20px; /* pull right corner back over "empty" space (from above margin) */
+}
+
+.block .bd {
+ background:transparent url(images/body_left.gif) repeat-y 0px 0px;
+ margin-right:20px;
+}
+
+.block .bd .c {
+ background:transparent url(images/body_right.gif) repeat-y right 0px;
+ margin-right:-20px;
+}
+
+.block .bd .c .s {
+ background-color:transparent;
+ padding:1em;
+	margin: 0px;
+	padding: 0px;
+}
+.block .ft {
+ background:transparent url(images/footer_left.gif) no-repeat 0px 0px;
+ margin-right:14px;
+}
+
+.block .ft .c {
+ background:transparent url(images/footer_right.gif) no-repeat right 0px;
+ margin-right:-14px;
+}
+
+.content .bd .c .s {
+	padding: 0px 15px 0px 15px;
+}
+
+.block .bd .c .s li {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#main-content .links {
+	padding-top: 15px;
+}
+
+#main-content .messages {
+	font-weight: bold;
+	color: red;
+}
+
+h3 {
+	color: #66AA00;
+	font-style: italic;
+}
+
+.note {
+	font-weight: bold;
+}
+
+.quote {
+	background-image: url(images/quote.gif);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	font-style: italic;
+	min-height: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.quote span {
+	font-style: none;
+	font-weight: bold;
+}
+
+/**********************
+ *
+ * TinyMCE
+ *
+ **********************/
+body.mceContentBody {
+   background: #88DBD1;
+}
+
